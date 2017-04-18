@@ -1,7 +1,6 @@
 % Script written by Henry Cox 01/2017
-% Script exports data from the FiberApp ImageData file structure and
-% performs post processing to determine persistence length, contour length,
-% end to end distances etc 
+% Script exports data from the FiberApp ImageData file structure which
+% gets it ready for further post processing.
 
 % remove old Images structure and initiate property variables
 clear Images
@@ -42,4 +41,4 @@ for i = 1:numberofimages
        
 end
 
-clear Lp k xpts ypts i j sLp number
+clear i j
